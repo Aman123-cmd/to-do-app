@@ -12,37 +12,62 @@ Storage: LocalStorage for task persistence
 Deployment: Vercel
 
 📌 Features
+
 1️⃣ Frontend Development & API Integration
+
 ✅ Structured layout using HTML & CSS
+
 ✅ Material-UI used for styling and components
+
 ✅ JavaScript (ES6+) used for application logic
+
 ✅ Integrated OpenWeather API to fetch weather data for outdoor tasks
+
 ✅ Error handling for API failures
 
 2️⃣ React Components & Advanced State Management
+
 ✅ React Functional Components & Hooks (useState, useEffect)
+
 ✅ Two main components:
 
 TodoInput: Handles task addition
 
 TodoList: Displays tasks
+
 ✅ Redux Toolkit & Redux Thunk for async actions
+
 ✅ State management for tasks & authentication
 
+
 3️⃣ Responsive Design
+
 ✅ Fully responsive using CSS Grid & Flexbox
+
 ✅ Mobile-first approach for better usability
+
 ✅ Optimized for mobile, tablet, and desktop devices
 
 4️⃣ Functionality
+
 ✅ Add Task: Users can enter a task and add it to the list
+
 ✅ View Tasks: Displays all tasks in a structured format
+
 ✅ Delete Task: Remove tasks from the list with a delete button
+
 ✅ Task Prioritization: Users can set High, Medium, or Low priority
+
 ✅ Persistent Storage: Tasks are stored in LocalStorage
 
 5️⃣ User Authentication
+
 ✅ Mocked authentication using Redux
+
 ✅ Users must log in to access the To-Do list
+
 ✅ Logout functionality included
+
+
+
 
