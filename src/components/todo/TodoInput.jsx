@@ -56,7 +56,7 @@ function TodoInput({ onTaskAdded }) {
         variant="outlined"
         sx={{
           transition: '0.3s',
-          '&:focus-within': { borderColor: 'primary.main', transform: 'scale(1.02)' },
+          '&:focus-within': { borderColor: 'primary.main', transform: 'scale(1.02)' }, bgcolor:'rgba(0, 255, 0, 0)'
         }}
       />
 
