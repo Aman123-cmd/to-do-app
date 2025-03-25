@@ -68,6 +68,12 @@ TodoList: Displays tasks
 
 ✅ Logout functionality included
 
+weather Will be display when the outdoor Task Type is selected
+
+![Todo -App Preview](https://github.com/user-attachments/assets/2c6c0d94-39df-463a-868d-bed581adcf8f)
+
+->No Weather will be displayed for input task selected 
 
 
+->If there is any output Task in The Task List then only weather will be displayed using openWeather Api
 
