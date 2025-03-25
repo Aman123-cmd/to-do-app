@@ -29,11 +29,15 @@ Deployment: Vercel
 
 ✅ React Functional Components & Hooks (useState, useEffect)
 
-✅ Two main components:
+✅ Four main components:
 
-TodoInput: Handles task addition
+->TodoApp:Contains TaskInput and TaskList components
 
-TodoList: Displays tasks
+->Tasknput: Handles task addition
+
+->TaskList: Displays tasks
+
+->WeatherWidget:Displays Weather Of your current location When There is an Outdoor Task in Your Task List using OpenWeather Api
 
 ✅ Redux Toolkit & Redux Thunk for async actions
 
@@ -68,11 +72,13 @@ TodoList: Displays tasks
 
 ✅ Logout functionality included
 
+![Image](https://github.com/user-attachments/assets/e554c095-156f-46a8-a6ff-394e10335a7c)
+
 weather Will be display when the outdoor Task Type is selected
 
 ![Todo -App Preview](https://github.com/user-attachments/assets/2c6c0d94-39df-463a-868d-bed581adcf8f)
 
-->No Weather will be displayed for input task selected
+->No Weather will be displayed for indoor task selected
 
 ![Image](https://github.com/user-attachments/assets/4ec5ca14-0aeb-4d6f-b561-66c3b54ed9c5)
 
