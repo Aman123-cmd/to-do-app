@@ -72,7 +72,9 @@ weather Will be display when the outdoor Task Type is selected
 
 ![Todo -App Preview](https://github.com/user-attachments/assets/2c6c0d94-39df-463a-868d-bed581adcf8f)
 
-->No Weather will be displayed for input task selected 
+->No Weather will be displayed for input task selected
+
+![Image](https://github.com/user-attachments/assets/4ec5ca14-0aeb-4d6f-b561-66c3b54ed9c5)
 
 
 ->If there is any output Task in The Task List then only weather will be displayed using openWeather Api
