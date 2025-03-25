@@ -1,0 +1,142 @@
+/* Global Theme Colors */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #0056b3;
+  --bg-gradient: linear-gradient(120deg, #1e3c72, #2a5298);
+  --card-bg: rgba(255, 255, 255, 0.15);
+  --glass-effect: rgba(255, 255, 255, 0.1);
+  --text-light: #ffffff;
+  --text-dark: #333;
+  --shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Background Animation */
+body {
+  background: var(--bg-gradient);
+  background-size: 200% 200%;
+  animation: gradientBG 10s ease infinite;
+  color: var(--text-light);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Keyframes for Background Animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Todo App Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+/* App Bar (Header) */
+.app-bar {
+  background: var(--glass-effect);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+/* Button Styling */
+button {
+  background: var(--primary-color);
+  color: var(--text-light);
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+  background: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* Input Fields */
+input, select {
+  background: var(--glass-effect);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--text-dark);
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Weather Widget */
+.weather-widget {
+  padding: 15px;
+  background: var(--glass-effect);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  backdrop-filter: blur(15px);
+}
+
+/* Todo List Items */
+.todo-item {
+  background: var(--glass-effect);
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.todo-item:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow);
+}
+
+/* Tag Styling */
+.tag {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.outdoor {
+  background: #007bff;
+  color: white;
+}
+
+.indoor {
+  background: #28a745;
+  color: white;
+}
+
+.high {
+  background: #dc3545;
+  color: white;
+}
+
+.medium {
+  background: #ffc107;
+  color: black;
+}
+
+.low {
+  background: #17a2b8;
+  color: white;
+}
