@@ -85,3 +85,28 @@ Weather Will only be display when there is an outdoor Task Type in Task List
 
 ->If there is any output Task in The Task List then only weather will be displayed using openWeather Api
 
+⚙️ Installation & Running Instructions
+
+1️⃣ Clone the Repository
+
+->git clone https://github.com/Aman123-cmd/to-do-app.git
+
+Then go the to-do-app directory
+
+->cd to-do-app
+
+2️⃣ Install Dependencies
+
+->npm install
+
+3️⃣ Setup API Keys in .env
+
+Create a .env file in the project root and add your OpenWeather API Key:
+
+->VITE_WEATHER_API_KEY=your_api_key_here
+
+4️⃣ Run the App Locally
+
+->npm run dev
+
+Then Youl Will get a link in the terminal press ctrl and then click on the link 
