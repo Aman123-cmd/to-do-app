@@ -62,7 +62,11 @@ Deployment: Vercel
 
 ✅ Task Prioritization: Users can set High, Medium, or Low priority
 
-✅ Persistent Storage: Tasks are stored in LocalStorage
+✅ Checkbox Interaction: Each task has a checkbox that users can click to mark it as complete or incomplete.
+
+✅ Strikethrough Effect: When a task is completed, a line-through effect visually indicates the completion.
+
+✅ Persistent Storage: Tasks are stored in LocalStorage. Whatever Changes are made in the task will be stored in local storage even after refreshing the page.
 
 5️⃣ User Authentication
 
